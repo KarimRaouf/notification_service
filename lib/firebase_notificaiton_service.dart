@@ -25,6 +25,10 @@ class FirebaseNotificationService {
 
     // Configure background message handler
     FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
+
+
+
+
     getFCMToken();
   }
 
